@@ -3,26 +3,26 @@ entries:
   cloudless-couchdb:
   - apiVersion: v1
     appVersion: 2.1.1
-    created: 2018-07-26T16:11:59.962660928+02:00
+    created: 2018-07-26T16:14:41.032217939+02:00
     description: A (test) wrapper helm chart for 'couchdb' and also Clouseau :-)
     digest: 0cdbb64bdb8911ed5474cfe082bf4cef8c70c9b410a6858a5f7e8abee2df69e1
     name: cloudless-couchdb
     urls:
-    - cloudless-couchdb-0.5.0.tgz
+    - https://charts.luzilla-capital.com/cloudless-couchdb-0.5.0.tgz
     version: 0.5.0
   cloudless-kubeseal:
   - apiVersion: v1
     appVersion: latest
-    created: 2018-07-26T16:11:59.96295804+02:00
+    created: 2018-07-26T16:14:41.032470748+02:00
     description: A chart to setup kubeseal
     digest: a921a49beac0dc074bf4c37286c02cdaa3425e9ea6475fd7f36c609916cbcd29
     name: cloudless-kubeseal
     urls:
-    - cloudless-kubeseal-0.1.0.tgz
+    - https://charts.luzilla-capital.com/cloudless-kubeseal-0.1.0.tgz
     version: 0.1.0
   fluent-bit:
   - appVersion: 0.13.0
-    created: 2018-07-26T16:11:59.963764783+02:00
+    created: 2018-07-26T16:14:41.032998553+02:00
     description: Fast and Lightweight Log/Data Forwarder for Linux, BSD and OSX
     digest: 6e52f452f6eaaa72caba063d2fe145caaee3fdeac2291cac8ee5ba39f41184a4
     home: http://fluentbit.io
@@ -41,6 +41,6 @@ entries:
     sources:
     - http://fluentbit.io
     urls:
-    - fluent-bit-0.6.1.tgz
+    - https://charts.luzilla-capital.com/fluent-bit-0.6.1.tgz
     version: 0.6.1
-generated: 2018-07-26T16:11:59.960497786+02:00
+generated: 2018-07-26T16:14:41.030694859+02:00
