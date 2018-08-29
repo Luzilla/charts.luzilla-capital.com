@@ -3,7 +3,7 @@ entries:
   cloudless-couchdb:
   - apiVersion: v1
     appVersion: 2.1.1
-    created: 2018-07-26T16:14:41.032217939+02:00
+    created: 2018-08-29T14:51:11.599902837+02:00
     description: A (test) wrapper helm chart for 'couchdb' and also Clouseau :-)
     digest: 0cdbb64bdb8911ed5474cfe082bf4cef8c70c9b410a6858a5f7e8abee2df69e1
     name: cloudless-couchdb
@@ -13,7 +13,7 @@ entries:
   cloudless-kubeseal:
   - apiVersion: v1
     appVersion: latest
-    created: 2018-07-26T16:14:41.032470748+02:00
+    created: 2018-08-29T14:51:11.600399005+02:00
     description: A chart to setup kubeseal
     digest: a921a49beac0dc074bf4c37286c02cdaa3425e9ea6475fd7f36c609916cbcd29
     name: cloudless-kubeseal
@@ -22,7 +22,7 @@ entries:
     version: 0.1.0
   fluent-bit:
   - appVersion: 0.13.0
-    created: 2018-07-26T16:14:41.032998553+02:00
+    created: 2018-08-29T14:51:11.601523739+02:00
     description: Fast and Lightweight Log/Data Forwarder for Linux, BSD and OSX
     digest: 6e52f452f6eaaa72caba063d2fe145caaee3fdeac2291cac8ee5ba39f41184a4
     home: http://fluentbit.io
@@ -43,4 +43,29 @@ entries:
     urls:
     - https://charts.luzilla-capital.com/fluent-bit-0.6.1.tgz
     version: 0.6.1
-generated: 2018-07-26T16:14:41.030694859+02:00
+  harbor:
+  - appVersion: 1.5.0
+    created: 2018-08-29T14:51:11.606078561+02:00
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: d544709ebe5d1a146457317e13567533405f925256637c8f95d78108e4d88e5e
+    engine: gotpl
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/harbor/master/docs/img/harbor_logo.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: huh@vmware.com
+      name: Jesse Hu
+    - email: username.taken@gmail.com
+      name: paulczar
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - https://charts.luzilla-capital.com/harbor-0.2.0.tgz
+    version: 0.2.0
+generated: 2018-08-29T14:51:11.595993935+02:00
